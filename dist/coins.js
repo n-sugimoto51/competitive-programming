@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+const fs = require("fs");
 function Main(input) {
     const inputArray = input.split("\n");
     const aCount = parseInt(inputArray[0]);
@@ -36,6 +37,6 @@ function Main(input) {
     }
     console.log("%d", result);
 }
-Main("2\n2\n2\n100");
-// Main(fs.readFileSync("/dev/stdin", "utf8"));
+// Main("2\n2\n2\n100");
+Main(fs.readFileSync("/dev/stdin", "utf8"));
 //# sourceMappingURL=coins.js.map
