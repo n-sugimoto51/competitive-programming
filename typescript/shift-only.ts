@@ -5,8 +5,6 @@ function Main(input: string) {
   const progression: string[] = inputArray[1].split(" ");
   let resultCount: number = 0;
 
-  // const retryCheck: boolean = progression.every(evenCheck);
-
   let enableRetryCheck: boolean = true;
   while (enableRetryCheck) {
     for (let i = 0; i < progression.length; i++) {
