@@ -1,10 +1,10 @@
+// 1 円玉 と 5 円玉を使って N 円を支払うとき、最低何枚の硬貨が必要ですか。
 package main
 
 import (
 	"fmt"
 )
 
-// 1 円玉 と 5 円玉を使って N 円を支払うとき、最低何枚の硬貨が必要ですか。
 func main() {
 	var n int
 	fmt.Scanf("%d", &n)
