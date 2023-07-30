@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+const fs = require("fs");
 function Main(input) {
     const [n_s, a_s, b_s] = input.split(" ");
     const n = parseInt(n_s);
@@ -17,6 +18,5 @@ function Main(input) {
     }
     console.log("%s", result);
 }
-Main("100 4 16");
-// Main(fs.readFileSync("/dev/stdin", "utf8"));
+Main(fs.readFileSync("/dev/stdin", "utf8"));
 //# sourceMappingURL=some-sums.js.map
