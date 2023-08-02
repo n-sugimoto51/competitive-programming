@@ -14,14 +14,15 @@
 
 ## デメリット
 
-- ソート済み配列出なければ使えない
+- ソート済み配列でなければ使えない
 
 ## 使い所
 
-## 実際にコードを書いてわかったこと
+## 実際にコードを書いて再確認したこと
 
 - left, right, mid を利用してデータを二分する
 - mid を計算するときは`(left+right)/2`
+- mid を計算するときはオーバーフローを回避するために`left + (right - left) / 2`と変形する
 
 ## Go で二分探索
 
@@ -38,6 +39,8 @@
 - [めぐる式二分探索法のすすめ](https://qiita.com/drken/items/97e37dd6143e33a64c8c)
 - [Go 代表的なアルゴリズム](https://zenn.dev/satumahayato010/articles/58fb473c40d9af)
 - [Go sort.Search](https://pkg.go.dev/sort#Search)
+- [Go 標準入力](https://qiita.com/tnoda_/items/b503a72eac82862d30c6)
+- [Go 標準入力備忘録](https://qiita.com/t-yama-3/items/99ecf0466e5e0f080815)
 
 ## ChatGPT
 
